@@ -15,10 +15,10 @@
 
 # SYNTAX
 
-__SELECT column_lists,__  
-__FROM table_name__ 
-__WHERE conditions__
-__GROUP BY column_lists;__ 
+***SELECT column_lists,*** 
+***FROM table_name***
+***WHERE conditions***
+***GROUP BY column_lists;***
 
 
 # HAVING CLAUSE
@@ -36,9 +36,9 @@ __GROUP BY column_lists;__
 
 # SYNTAX
 
-__SELECT column_lists,__     
-__aggregate_function (expression)__ 
-__FROM table_name__
-__WHERE conditions__
-__GROUP BY column_lists__    
-__HAVING condition;__
+***SELECT column_lists,***    
+***aggregate_function (expression)***
+***FROM table_name***
+***WHERE conditions***
+***GROUP BY column_lists***   
+***HAVING condition;***
