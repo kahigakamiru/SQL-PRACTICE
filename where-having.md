@@ -15,10 +15,10 @@
 
 # SYNTAX
 
-* [SELECT column_lists,     
+* SELECT column_lists,     
 FROM table_name  
 WHERE conditions  
-GROUP BY column_lists; 
+GROUP BY column_lists; *
 
 
 # HAVING CLAUSE
