@@ -15,10 +15,30 @@
 
 # SYNTAX
 
-* SELECT column_lists,     
-FROM table_name  
-WHERE conditions  
-GROUP BY column_lists; *
+__SELECT column_lists,__  
+__FROM table_name__ 
+__WHERE conditions__
+__GROUP BY column_lists;__ 
 
 
 # HAVING CLAUSE
+
+- HAVING clause in MySQL used in conjunction with GROUP BY clause enables us to specify conditions that filter which group results appear in the result. 
+
+- It returns only those values from the groups in the final result that fulfills certain conditions. 
+
+- We can also use the WHERE and HAVING clause together during selection. In this case, WHERE clause first filters the individual rows, then rows are grouped, performs aggregate calculations, and at last HAVING clause filter the groups.
+
+- This clause places conditions on groups created by the GROUP BY clause. 
+
+- It behaves like the WHERE clause when the SQL statement does not use the GROUP BY keyword. We can use the aggregate (group) functions such as SUM, MIN, MAX, AVG, and COUNT only with two clauses: SELECT and HAVING.
+
+
+# SYNTAX
+
+__SELECT column_lists,__     
+__aggregate_function (expression)__ 
+__FROM table_name__
+__WHERE conditions__
+__GROUP BY column_lists__    
+__HAVING condition;__
